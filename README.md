@@ -38,7 +38,7 @@
         6 更新完毕，进入游戏
 
 ### 使用前提
-        此工程的资源更新功能是在asp.net core 2.1 服务器的基础上实现的，因此使用前需要有对应的网站，网站服务器代码点 TODO
+        此工程的资源更新功能是在asp.net core 2.1 服务器的基础上实现的，因此使用前需要有对应的服务器
 
 ### 使用步骤
        1 编辑器下测试先加上ABSystem工具要求的宏_AB_MODE_;AB_MODE，再加上新宏EDITOR_ANDROID，
@@ -47,11 +47,4 @@
        3 将Assets\StreamingAssets\AssetBundles\下的文件上传到服务器
        4 在ABDataConfig.cs脚本里修改服务器地址及接口名字
        5 运行Assets\ABDownload\GameMain.unity 场景
-       
-       
-       
-       
-       
-       
-       
-       
+  
