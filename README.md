@@ -3,6 +3,11 @@
 
 这是在[ABSystem](https://github.com/tangzx/ABSystem)打包工具的基础上增加的一个相配套的资源下载功能,项目在配有服务器的基础上可以自动下载更新资源，完成资源热更新
 
+### 资源链接
+
+[打包工具ABSystem](https://github.com/tangzx/ABSystem)
+[项目服务器ABManagerServer](https://github.com/qbhhc/ABManagerServer)
+
 ### 项目环境
     unity5.4.3f1+ugui
     服务器是基于vs2017+asp.net core 2.1+IIS上搭建的
