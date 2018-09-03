@@ -1,18 +1,18 @@
 
-## 项目介绍
+# 项目介绍
 
 这是在[ABSystem](https://github.com/tangzx/ABSystem)打包工具的基础上增加的一个相配套的资源下载功能,项目在配有服务器的基础上可以自动下载更新资源，完成资源热更新
 
-#### 资源链接
+##### 资源链接
 
 [打包工具ABSystem](https://github.com/tangzx/ABSystem)<br/>
 [项目服务器ABManagerServer](https://github.com/qbhhc/ABManagerServer)<br/>
 
-#### 项目环境
+##### 项目环境
     unity5.4.3f1+ugui
     服务器是基于vs2017+asp.net core 2.1+IIS上搭建的
     
-#### 文件夹介绍
+##### 文件夹介绍
         Assets\ABDownload\ 为ab资源下载代码以及demo所在
         Assets\ABSystem\ 为ABSystem工具的源码，其中有部分修改，以适应下载功能
             修改部分：
@@ -21,7 +21,7 @@
                 3 菜单栏ABSystem/Builde AssetBundles 改为执行build两次，具体看脚本AssetBundleBuildPanel.cs
                 4 其他修改~不记得了。。
                 
-#### 更新流程
+##### 更新流程
         1 解包：
             先判断缓存中是否有dep.all 文件与cache.txt 文件
                 有：已经解过包了，跳过1继续下一步
@@ -42,11 +42,11 @@
         5 下载完成后保存cache文件到本地，卸载ab下载器
         6 更新完毕，进入游戏
 
-#### 使用前提
+##### 使用前提
         此工程的资源更新功能是在asp.net core 2.1 服务器的基础上实现的，因此使用前需要有对应的服务器
         编辑器下可以使用内网服务器测试，服务器搭建请看上面链接中的[项目服务器]
 
-#### 使用步骤
+##### 使用步骤
        1 编辑器下测试先加上ABSystem工具要求的宏_AB_MODE_;AB_MODE，再加上新宏EDITOR_ANDROID，
             此宏是用来在编辑器下测试加载AB是从缓存（沙盒路径）中读取
        2 点击菜单栏ABSystem/Build Panel 选择Asset/Prefabs文件夹作为build对象，save后点击Build，build出ab资源
