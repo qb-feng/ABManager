@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1276353518
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: a4833bddf07044b10907d4c7a27ab216a6be022e.ab
+      Dependencies:
+        Dependency_0: 32c04e3e5d22ce244261a5b10216ab07ac90a79b.ab
+    Info_1:
+      Name: 3a85b78f45e66d3862c78b03de9e64e228bedc8c.ab
+      Dependencies:
+        Dependency_0: 782098d40ab0bb691b99a9d1965cfb0101cdc60e.ab
+    Info_2:
+      Name: f5f49ad6737010f6062be8ac7422ce61fce0d04d.ab
+      Dependencies: {}
+    Info_3:
+      Name: 5501ead9e7f6a26ee533ed881fea4c7b3cd02927.ab
+      Dependencies:
+        Dependency_0: 32c04e3e5d22ce244261a5b10216ab07ac90a79b.ab
+    Info_4:
+      Name: b26f08555f97bcf9d1cdfd748e7b729ad74c3c3c.ab
+      Dependencies:
+        Dependency_0: 782098d40ab0bb691b99a9d1965cfb0101cdc60e.ab
+    Info_5:
+      Name: 700a19106cffff7b5a1562c10b18aa795432ce2b.ab
+      Dependencies: {}
+    Info_6:
+      Name: ec74753ea3a1c41bd2f21ee14376447a9f9c5449.ab
+      Dependencies: {}
+    Info_7:
+      Name: 32c04e3e5d22ce244261a5b10216ab07ac90a79b.ab
+      Dependencies:
+        Dependency_0: 10ecf942db5a91585d598fceef510bfeb343bd9a.ab
+    Info_8:
+      Name: 10ecf942db5a91585d598fceef510bfeb343bd9a.ab
+      Dependencies: {}
+    Info_9:
+      Name: 782098d40ab0bb691b99a9d1965cfb0101cdc60e.ab
+      Dependencies:
+        Dependency_0: 10ecf942db5a91585d598fceef510bfeb343bd9a.ab
